@@ -1,0 +1,7 @@
+multistep.singleurl:
+  path: '/multistep/singleurl'
+  defaults:
+    _title: 'Multistep Form'
+    _controller: '\Drupal\multistep\Controller\Multistep::singleurl'
+  requirements:
+    _permission: 'access content'
